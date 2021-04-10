@@ -1,0 +1,66 @@
+body{
+    background: #194350;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+h1{
+    margin: auto auto;
+    color:#fff;
+    text-align: center;
+}
+
+
+h2{
+    color:#ff8882;
+    text-align: center;
+}
+
+
+li{
+    color: #ffc2b4;
+}
+
+
+i{
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+a{
+    color: #ffc2b4;
+}
+
+
+a:visited{
+    color: #ffc2b4;
+}
+
+.container{
+    width: 80%;
+    margin: auto auto;
+}
+.multimedia{
+    height: 300px;
+    width: 300px;
+    display:inline-block;
+    background-color: #2c3b39;
+}
+
+
+.RedesS{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-color: #2c3b39;
+}
+
+
+.Escuela{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-color: #2c3b39;
+}

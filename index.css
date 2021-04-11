@@ -1,14 +1,22 @@
 body{
-    background: #194350;
+    background: #eeb76b;
     margin: 0 0;
     padding: 0 0;
+
+    font-family: 'IBM Plex Mono', monospace;
 }
 
+ul{
+    list-style: none;
+}
 
 h1{
     margin: auto auto;
+    padding-top: 20px;
     color:#fff;
+    font-size: 50px;
     text-align: center;
+    text-shadow: 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -23,44 +31,60 @@ li{
 }
 
 
+
+
 i{
-    padding: 5px;
+    padding: 10px;
+    padding-bottom: 10px;
     font-size: 20px;
 }
 
 
 a{
-    color: #ffc2b4;
+    color: #ffffff;
 }
 
-
+a:link{
+    text-decoration: none;
+}
 a:visited{
-    color: #ffc2b4;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #c4c4c4;
 }
 
 .container{
-    width: 80%;
-    margin: auto auto;
+    /* width: 100%;
+
+    border: 1px solid red;
+    margin: 0 auto; */
+    height: 75vh;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
-.multimedia{
+
+.multimedia, .RedesS, .Escuela{
+    margin: 0 10px;
     height: 300px;
     width: 300px;
     display:inline-block;
-    background-color: #2c3b39;
+    background-color: #8d4422;
+    box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
 }
 
-
-.RedesS{
-    height: 300px;
-    width: 300px;
-    display: inline-block;
-    background-color: #2c3b39;
+.multimedia h2{
+    color: rgb(225, 255, 118);
+}
+.RedesS h2{
+    color: rgb(162, 162, 255);
 }
 
-
-.Escuela{
-    height: 300px;
-    width: 300px;
-    display: inline-block;
-    background-color: #2c3b39;
+.Escuela h2{
+    color: rgb(210, 163, 255);
 }

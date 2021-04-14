@@ -1,5 +1,5 @@
 body{
-    background: #eeb76b;
+    background: #2b2e4a;
     margin: 0 0;
     padding: 0 0;
 
@@ -74,7 +74,7 @@ a:hover{
     height: 300px;
     width: 300px;
     display:inline-block;
-    background-color: #8d4422;
+    background-color: #53354a;
     box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
 }
 

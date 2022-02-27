@@ -1,5 +1,6 @@
 body{
-    background: #2b2e4a;
+    /* background: #2b2e4a; */
+    background: #565B41;
     margin: 0 0;
     padding: 0 0;
 
@@ -41,18 +42,19 @@ i{
 
 
 a{
-    color: #ffffff;
+    color: #422816;
 }
 
 a:link{
     text-decoration: none;
 }
 a:visited{
-    color: #ffffff;
+    color: #422816;
+    
 }
 
 a:hover{
-    color: #c4c4c4;
+    color: #6D4728;
 }
 
 .container{
@@ -74,17 +76,21 @@ a:hover{
     height: 300px;
     width: 300px;
     display:inline-block;
-    background-color: #53354a;
+    /* background-color: #53354a; */
+    background: #BBC2A8;
     box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .multimedia h2{
-    color: rgb(225, 255, 118);
+    /* color: rgb(225, 255, 118); */
+    color: #565B41;
 }
 .RedesS h2{
-    color: rgb(162, 162, 255);
+    /* color: rgb(162, 162, 255); */
+    color: #565B41;
 }
 
 .Escuela h2{
-    color: rgb(210, 163, 255);
+    /* color: rgb(210, 163, 255); */
+    color: #565B41;
 }

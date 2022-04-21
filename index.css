@@ -1,6 +1,14 @@
+:root{
+    --background: #565B41;
+    --links: #422816;
+    --hover: #6D4728;
+    --bgcontainer: #BBC2A8;
+    --title: #565B41;
+}
+
 body{
     /* background: #2b2e4a; */
-    background: #565B41;
+    background:var(--background);
     margin: 0 0;
     padding: 0 0;
 
@@ -22,14 +30,11 @@ h1{
 
 
 h2{
-    color:#ff8882;
+    
     text-align: center;
 }
 
 
-li{
-    color: #ffc2b4;
-}
 
 
 
@@ -42,19 +47,19 @@ i{
 
 
 a{
-    color: #422816;
+    color: var(--links);
 }
 
 a:link{
     text-decoration: none;
 }
 a:visited{
-    color: #422816;
+    color: var(--links);
     
 }
 
 a:hover{
-    color: #6D4728;
+    color: var(--hover)
 }
 
 .container{
@@ -73,24 +78,25 @@ a:hover{
 
 .multimedia, .RedesS, .Escuela{
     margin: 0 10px;
-    height: 300px;
-    width: 300px;
+    height: 310px;
+    width: 310px;
     display:inline-block;
     /* background-color: #53354a; */
-    background: #BBC2A8;
+    background: var(--bgcontainer);
     box-shadow: 6px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 1.5rem;
 }
 
 .multimedia h2{
     /* color: rgb(225, 255, 118); */
-    color: #565B41;
+    color: var(--title);
 }
 .RedesS h2{
     /* color: rgb(162, 162, 255); */
-    color: #565B41;
+    color: var(--title);
 }
 
 .Escuela h2{
     /* color: rgb(210, 163, 255); */
-    color: #565B41;
+    color: var(--title)
 }
